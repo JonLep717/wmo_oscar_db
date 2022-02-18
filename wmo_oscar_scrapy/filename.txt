@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description"
+	content="The official WMO WIGOS database for earth observation Satellites, Instruments and space-based capabilities, including detailed information on observational user requirements.
+	A tool for for global gap analysis and global observation system planning" />
+	<meta name="keywords"
+	content="WMO, Satellite, Satellites, Instruments, Missions, Database, Requirements, Variables, Observations, RRR, Rolling Review of Requirements, CBS" />
+<link rel="search"
+      type="application/opensearchdescription+xml"
+      title="WMO OSCAR SEARCH"
+      href="/pages/opensearch">
+<title>
+	WMO OSCAR &nbsp;|&nbsp;
+	List of all Requirements</title>
+
+<link rel="stylesheet" href="/css/styles.css"/><link rel="stylesheet" href="/css/jquery-ui-1-12-0-custom.css"/><link rel="stylesheet" href="/css/jQSlider-4-2-1.css"/><link rel="stylesheet" href="/css/datatables-1-10-20.min.css"/><link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/><script src="/js/jquery/jquery-3-5-1.min.js"></script><script src="/js/jquery/jquery-migrate-3-3-0.min.js"></script><script src="/js/jquery-ui-1-12-0.min.js"></script><script src="/js/jquery.cookie.js"></script><script src="/js/datatable-1-10-20.js"></script><script src="/js/jquery.datatables.plugins.js"></script><script src="/js/dataTables.scroller.js"></script><script src="/js/dataTables.jqueryui.js"></script><script src="/js/highcharts.js"></script><script src="/js/rrr.general-scripts.js"></script><script src="/js/rrr.requirements-scripts.js"></script><script src="/js/rrr.capabilities-scripts.js"></script><!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<!-- Google analytics snippet -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24410665-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  <script>
+  $( function() {
+	var cookieName = 'Oscar-release-diag-v2-6';
+    if ( $.cookie(cookieName) != 'shown') {
+    $( "#dialog-message" ).dialog({
+      modal: true,
+      draggable: false,
+      position: { my: 'right top', at: 'right-50 top+20' },
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+    $.cookie(cookieName, 'shown', {
+	expires: 365
+    });
+  }
+
+} );
+  </script>
+</head>
+<body>
+
+	<div id="container" class="container">
+		<div id="header">
+			<header class="block" id="toparea">
+	<div class="box leftalign">
+		<a href="http://www.wmo.int"><img src="/img/wmologo.png" alt="World Meteorological Organization" class="mainlogo"/></a>	</div>
+	<div class="box leftalign" id="titlebox">
+
+		<h1>OSCAR</h1>
+				<div>
+			Observing Systems Capability Analysis and Review Tool<br />
+		</div>
+
+	</div>
+	<div class="box" id="loginstatus">
+		<!--nocache-->
+		<a href="/users/login">Login</a>		<!--/nocache-->
+	</div>
+</header>
+<nav id="navigation" class="block menu-capabilities"
+	style="clear: both;">
+	<div id="menu-level-1">
+		<div class='home-button leftalign'><a href="/">Home</a></div><div class='requirements-button leftalign active'><strong>Observation Requirements</strong></div><div class='spacecapabilities-button leftalign'><a href="/spacecapabilities">Space-based Capabilities</a></div><div class='surfacecapabilities-button leftalign'><a href="/surfacecapabilities">Surface-based Capabilities</a></div><div class='analysis-button leftalign'><a href="/analysis">Analysis</a></div>		<div class="rightalign">
+
+			<input type="input" name="search" id="quicksearch_req" class="quicksearch rightalign"/>
+		</div>
+	</div>
+
+	<div id="menu-level-2" class="menu-requirements">
+		<ul class="requirements">
+			<li id='observingrequirements'><a href="/observingrequirements">Overview</a></li><li id='variables'><a href="/variables">Variables</a></li><li id='requirements'><a href="/requirements">Requirements</a></li><li id='layers'><a href="/layers">Layers</a></li><li id='themes'><a href="/themes">Themes</a></li><li id='applicationareas'><a href="/applicationareas">Application Areas</a></li>		</ul>
+
+	</div>
+</nav>
+		</div>
+
+		<div id="content">
+			<!--nocache-->
+						<noscript>
+				<div class="error">
+					<strong>No JavaScript detected</strong><br /> Usage of this Website
+					will be severly limited without JavaScript. Please enable
+					JavaScript in your Browser.
+
+				</div>
+			</noscript>
+			<!--[if lt IE 7]>
+
+				<div class="error">
+					<strong>Internet Explorer 6 detected</strong><br/>
+					Warning: You are using a deprecated browser and might experience problems with some functionality. If possible, upgrade to a newer version. This website works well with all recent web browsers, e.g. IE9+ Firefox 2+, Opera or Safari.
+
+				</div>
+
+				<![endif]-->
+			<!--/nocache-->
+			<h2>List of all Requirements</h2>
+
+
+
+<div class="column span-14" style="clear: both;">
+	<p>
+		This table shows all requirements.It can be sorted by clicking on the
+		column headers. The filter on the right allows to display only
+		specific requirements. <a id="filter-help">Filter instructions</a><img src="/img/icons/help.png" alt="Help icon" title="Help on the filter" style="vertical-align:top"/> <br />
+		<i>Note: In reading the values, goal is marked <span class="color-11">blue</span>,
+			breakthrough <span class="color-1">green</span> and threshold <span
+			class="color-4">orange</span>
+		</i>
+	</p>
+
+
+</div>
+
+<div id="filter-instructions">
+	Filter can be used to display Requirements by certain criteria.
+	<ul class="arrow-list">
+		<li><strong>Filter by cross-cutting theme</strong><br />For retrieval
+			of cross-cutting variables, e.g. in the cryosphere, the concept of
+			'themes' is used. A variable can be attached to none, one or more
+			themes. When selected, all requirements defined for variables in the
+			respective theme are returned.</li>
+		<li><strong>Filter by Application area</strong><br />Select one ore
+			more application areas for which the requirements are defined.</li>
+		<li><strong>Filter by vertical layer(s)</strong><br />A layer refers
+			to the vertical domain in which the requirement is defined. Hover of
+			the acronym to see the definition.</li>
+		<li><strong>Filter by horizontal coverage(s)</strong><br />Horizontal
+			coverage refers to the horizontal domain for which the requirement is
+			needed, i.e. globally, regionally, for specific points, or over land
+			or over the ocean.</li>
+	</ul>
+	Generally, if no item is selected, all are returned. <br />The <strong>export
+		functionality </strong>takes the current filter into account
+</div>
+
+
+<div id="requirementsfilter">
+
+	<div class="filter_head">
+		<span style="font-size: medium;">&raquo;</span> Filter table
+	</div>
+	<div class='filter_body' style='display: none; width: 710px;'>
+
+		<div class="advanced_filtering_header" style="clear: both;">
+			<span>Filter by cross-cutting theme(s)</span>
+		</div>
+		<div style="clear: both;" id="selectedthemes">
+			<div id='new_checkbox'><div class="input select"><label for="themes"></label><input type="hidden" name="Themes" value=""/><div class="checkbox"><label for="themes-5"><input type="checkbox" name="Themes[]" value="5" id="themes-5"  class="checkboxes" style="width:140px;">Cryosphere   </label></div><div class="checkbox"><label for="themes-78"><input type="checkbox" name="Themes[]" value="78" id="themes-78"  class="checkboxes" style="width:140px;">Volcanoes</label></div></div></div>		</div>
+
+
+		<div class="advanced_filtering_header" style="clear: both;">
+			<span>Filter by application area(s) in which the Requirements are
+				defined</span>
+		</div>
+		<div style="clear: both;" id="selectedapplicationareas">
+			<div id='new_checkbox'><div class="input select"><input type="hidden" name="Applicationareas" value=""/><div class="checkbox"><label for="applicationareas-1"><input type="checkbox" name="Applicationareas[]" value="1" id="applicationareas-1"  class="checkboxes">Global NWP</label></div><div class="checkbox"><label for="applicationareas-2"><input type="checkbox" name="Applicationareas[]" value="2" id="applicationareas-2"  class="checkboxes">High Res NWP</label></div><div class="checkbox"><label for="applicationareas-3"><input type="checkbox" name="Applicationareas[]" value="3" id="applicationareas-3"  class="checkboxes">Nowcasting / VSRF</label></div><div class="checkbox"><label for="applicationareas-6"><input type="checkbox" name="Applicationareas[]" value="6" id="applicationareas-6"  class="checkboxes">Aeronautical Meteorology</label></div><div class="checkbox"><label for="applicationareas-7"><input type="checkbox" name="Applicationareas[]" value="7" id="applicationareas-7"  class="checkboxes">Agricultural Meteorology</label></div><div class="checkbox"><label for="applicationareas-9"><input type="checkbox" name="Applicationareas[]" value="9" id="applicationareas-9"  class="checkboxes">Hydrology</label></div><div class="checkbox"><label for="applicationareas-10"><input type="checkbox" name="Applicationareas[]" value="10" id="applicationareas-10"  class="checkboxes">Ocean Applications</label></div><div class="checkbox"><label for="applicationareas-25"><input type="checkbox" name="Applicationareas[]" value="25" id="applicationareas-25"  class="checkboxes">Space Weather</label></div><div class="checkbox"><label for="applicationareas-29"><input type="checkbox" name="Applicationareas[]" value="29" id="applicationareas-29"  class="checkboxes">Forecasting Atmospheric Composition</label></div><div class="checkbox"><label for="applicationareas-30"><input type="checkbox" name="Applicationareas[]" value="30" id="applicationareas-30"  class="checkboxes">Monitoring Atmospheric Composition</label></div><div class="checkbox"><label for="applicationareas-31"><input type="checkbox" name="Applicationareas[]" value="31" id="applicationareas-31"  class="checkboxes">Providing Atmospheric Composition information  to support services in urban and populated areas</label></div><div class="checkbox"><label for="applicationareas-33"><input type="checkbox" name="Applicationareas[]" value="33" id="applicationareas-33"  class="checkboxes">SSLP</label></div><div class="checkbox"><label for="applicationareas-34"><input type="checkbox" name="Applicationareas[]" value="34" id="applicationareas-34"  class="checkboxes">Climate Monitoring (GCOS)</label></div><div class="checkbox"><label for="applicationareas-35"><input type="checkbox" name="Applicationareas[]" value="35" id="applicationareas-35"  class="checkboxes">Climate Science</label></div></div></div>		</div>
+
+		<div class='advanced_filtering_header' style="clear: both;">Filter by
+			vertical layers</div>
+		<div style="clear: both; padding: 4px;" id="selectedlayers">
+			<div><strong>Atmosphere</strong></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="1" value="0"/><label for="Layers1"><input type="checkbox" name="1" value="1" id="Layers1" div="checkboxes shortlabel"><abbr title='Total column'>TC</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="2" value="0"/><label for="Layers2"><input type="checkbox" name="2" value="1" id="Layers2" div="checkboxes shortlabel"><abbr title='Troposphere column'>TrC</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="3" value="0"/><label for="Layers3"><input type="checkbox" name="3" value="1" id="Layers3" div="checkboxes shortlabel"><abbr title='Mid-upper stratosphere'>MUS</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="4" value="0"/><label for="Layers4"><input type="checkbox" name="4" value="1" id="Layers4" div="checkboxes shortlabel"><abbr title='Upper troposphere / lower
+stratosphere'>UTLS</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="5" value="0"/><label for="Layers5"><input type="checkbox" name="5" value="1" id="Layers5" div="checkboxes shortlabel"><abbr title='Free troposphere'>FT</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="6" value="0"/><label for="Layers6"><input type="checkbox" name="6" value="1" id="Layers6" div="checkboxes shortlabel"><abbr title='Planetary boundary layer'>PBL</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="7" value="0"/><label for="Layers7"><input type="checkbox" name="7" value="1" id="Layers7" div="checkboxes shortlabel"><abbr title='At the surface (in the air)'>Near Surface</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="10" value="0"/><label for="Layers10"><input type="checkbox" name="10" value="1" id="Layers10" div="checkboxes shortlabel"><abbr title='At the cloud top surface'>Cloud-top</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="11" value="0"/><label for="Layers11"><input type="checkbox" name="11" value="1" id="Layers11" div="checkboxes shortlabel"><abbr title='Top of the atmosphere'>TOA</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="35" value="0"/><label for="Layers35"><input type="checkbox" name="35" value="1" id="Layers35" div="checkboxes shortlabel"><abbr title='Low Thermosphere (From 100 km to 200 km  altitude)'>LoThermo</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="36" value="0"/><label for="Layers36"><input type="checkbox" name="36" value="1" id="Layers36" div="checkboxes shortlabel"><abbr title='High Thermosphere (From 200 to about 500 km altitude)'>HiThermo</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="37" value="0"/><label for="Layers37"><input type="checkbox" name="37" value="1" id="Layers37" div="checkboxes shortlabel"><abbr title='Mesosphere'>M</abbr></label></div></div><div style='clear:both;'></div><div><strong>Ocean</strong></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="13" value="0"/><label for="Layers13"><input type="checkbox" name="13" value="1" id="Layers13" div="checkboxes shortlabel"><abbr title='Surface of the ocean'>Sea surface</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="14" value="0"/><label for="Layers14"><input type="checkbox" name="14" value="1" id="Layers14" div="checkboxes shortlabel"><abbr title='Bulk layer (ocean sub-surface)'>Bulk</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="17" value="0"/><label for="Layers17"><input type="checkbox" name="17" value="1" id="Layers17" div="checkboxes shortlabel"><abbr title='Upper ocean'>Upper oc</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="18" value="0"/><label for="Layers18"><input type="checkbox" name="18" value="1" id="Layers18" div="checkboxes shortlabel"><abbr title='Deep ocean'>Deep oc</abbr></label></div></div><div style='clear:both;'></div><div><strong>Terrestrial</strong></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="19" value="0"/><label for="Layers19"><input type="checkbox" name="19" value="1" id="Layers19" div="checkboxes shortlabel"><abbr title='Land surface'>Land surface</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="20" value="0"/><label for="Layers20"><input type="checkbox" name="20" value="1" id="Layers20" div="checkboxes shortlabel"><abbr title='Root region of the soil'>Root</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="21" value="0"/><label for="Layers21"><input type="checkbox" name="21" value="1" id="Layers21" div="checkboxes shortlabel"><abbr title='Deep soil layer'>Deep soil</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="22" value="0"/><label for="Layers22"><input type="checkbox" name="22" value="1" id="Layers22" div="checkboxes shortlabel"><abbr title='Interior earth'>Interior </abbr></label></div></div><div style='clear:both;'></div><div><strong>Outer Space</strong></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="23" value="0"/><label for="Layers23"><input type="checkbox" name="23" value="1" id="Layers23" div="checkboxes shortlabel"><abbr title='Ionosphere'>Ionos</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="24" value="0"/><label for="Layers24"><input type="checkbox" name="24" value="1" id="Layers24" div="checkboxes shortlabel"><abbr title='At Lagrange point L1 (about 1,500,000 km from Earth)'>L1</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="25" value="0"/><label for="Layers25"><input type="checkbox" name="25" value="1" id="Layers25" div="checkboxes shortlabel"><abbr title='At Lagrange points L4, L5'>L4-L5</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="26" value="0"/><label for="Layers26"><input type="checkbox" name="26" value="1" id="Layers26" div="checkboxes shortlabel"><abbr title='Around the geostationary orbit'>Geo</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="27" value="0"/><label for="Layers27"><input type="checkbox" name="27" value="1" id="Layers27" div="checkboxes shortlabel"><abbr title='Low Earth Orbit altitude range'>Leo</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="28" value="0"/><label for="Layers28"><input type="checkbox" name="28" value="1" id="Layers28" div="checkboxes shortlabel"><abbr title='Medium Earth Orbit altitude range'>Meo</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="29" value="0"/><label for="Layers29"><input type="checkbox" name="29" value="1" id="Layers29" div="checkboxes shortlabel"><abbr title='In the whole heliosphere'>Helio</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="30" value="0"/><label for="Layers30"><input type="checkbox" name="30" value="1" id="Layers30" div="checkboxes shortlabel"><abbr title='Solar surface and atmosphere'>Sun</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="32" value="0"/><label for="Layers32"><input type="checkbox" name="32" value="1" id="Layers32" div="checkboxes shortlabel"><abbr title='Magnetosphere'>Magnet</abbr></label></div></div><div style='clear:both;'></div><div><strong>Cross-cutting</strong></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="12" value="0"/><label for="Layers12"><input type="checkbox" name="12" value="1" id="Layers12" div="checkboxes shortlabel"><abbr title='Not applicable. 2D field, no altitude dependence'>n/a (2D)</abbr></label></div></div><div id='new_checkbox'><div class="input checkbox"><input type="hidden" name="33" value="0"/><label for="Layers33"><input type="checkbox" name="33" value="1" id="Layers33" div="checkboxes shortlabel"><abbr title='Not applicable. No altitude dependence'>n/a</abbr></label></div></div><div style='clear:both;'></div>		</div>
+		<div class="advanced_filtering_header" style="clear: both;">
+			<span>Filter by horizontal coverage</span>
+		</div>
+		<div style="clear: both;" id="selectedrequirementcoverages">
+			<div id='new_checkbox'><div class="input select"><input type="hidden" name="Requirementcoverages" value=""/><div class="checkbox"><label for="requirementcoverages-1"><input type="checkbox" name="Requirementcoverages[]" value="1" id="requirementcoverages-1"  class="checkboxes">Global</label></div><div class="checkbox"><label for="requirementcoverages-2"><input type="checkbox" name="Requirementcoverages[]" value="2" id="requirementcoverages-2"  class="checkboxes">Global ocean</label></div><div class="checkbox"><label for="requirementcoverages-3"><input type="checkbox" name="Requirementcoverages[]" value="3" id="requirementcoverages-3"  class="checkboxes">Global land</label></div><div class="checkbox"><label for="requirementcoverages-4"><input type="checkbox" name="Requirementcoverages[]" value="4" id="requirementcoverages-4"  class="checkboxes">Costal areas</label></div><div class="checkbox"><label for="requirementcoverages-5"><input type="checkbox" name="Requirementcoverages[]" value="5" id="requirementcoverages-5"  class="checkboxes">Regional</label></div><div class="checkbox"><label for="requirementcoverages-6"><input type="checkbox" name="Requirementcoverages[]" value="6" id="requirementcoverages-6"  class="checkboxes">Sub-regional</label></div><div class="checkbox"><label for="requirementcoverages-7"><input type="checkbox" name="Requirementcoverages[]" value="7" id="requirementcoverages-7"  class="checkboxes">Local</label></div><div class="checkbox"><label for="requirementcoverages-8"><input type="checkbox" name="Requirementcoverages[]" value="8" id="requirementcoverages-8"  class="checkboxes">Point</label></div></div></div>			<div style='clear: both;'></div>
+			<div class="submit"><input type="submit" id="update-requirements" class="positive" value="Refresh Table"/></div><div class="submit"><input type="submit" class="close-filter negative" id="close" value="Close"/></div>		</div>
+
+
+
+	</div>
+
+</div>
+<form method="post" accept-charset="utf-8" class="rightalign" action="/requirements"><div style="display:none;"><input type="hidden" name="_csrfToken" autocomplete="off" value="1dad62fd6649e08d77f0f2bd5f02458ef1263e6fdac6c9bce51904f5"/></div><input type="hidden" name="themes" id="exportthemes"/><input type="hidden" name="applicationareas" id="exportapplicationareas"/><input type="hidden" name="layers" id="exportlayers"/><input type="hidden" name="requirementcoverages" id="exportrequirementcoverages"/><input type="hidden" name="checkrequest" id="checkrequest"/><button class="exportbutton exportcsv" name="Export" value="Export" type="submit">Export</button><div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="b92a6a5705c47e3d8e351528d17886ea1fdab9e1%3Acheckrequest"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="Export%7Capplicationareas%7Clayers%7Crequirementcoverages%7Cthemes"/></div></form><div class="info hide" style="clear: left; height: 1.2em;">
+	<div class="filter_message leftalign"></div>
+	<div class="rightalign">
+		<strong><a href="/requirements">Remove filter</a>		</strong>
+	</div>
+
+</div>
+
+<table id="requirementstable" class="display">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Variable</th>
+			<th>Layers</th>
+			<th>App Area</th>
+			<th>Theme(s)</th>
+
+			<th>Uncertainty</th>
+			<th>Stability / decade</th>
+			<th><abbr title="Horizontal Resolution">Hor Res</abbr></th>
+			<th><abbr title="Vertical Resolution">Ver Res</abbr></th>
+			<th><abbr title="Observing Cycle">Obs Cyc</abbr></th>
+			<th>Timeliness</th>
+
+			<th>Coverage</th>
+			<th>Conf Level</th>
+
+			<th>Source</th>
+			<th>Comment</th>
+
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+
+</table>
+
+
+
+		</div>
+		<footer>
+	<div id="footer" class="block" style="clear: left;">
+		<span class="leftalign">&copy; <a href="https://public.wmo.int/en/programmes/wmo-space-programme">World
+				Meteorological Organization</a>&nbsp;2011-2022&nbsp;|&nbsp;
+			<a href="/pages/disclaimer">Disclaimer</a>            &nbsp;|&nbsp;
+            <a href="/apidoc/" target="_blank">API documentation</a>		</span>
+
+		<div id="help" class="rightalign">version 2.6.0α</div>
+
+	</div>
+
+</footer>
+	</div>
+	
+<div id="dialog-message" style="display:none;" title="New release">
+  <p> <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span> OSCAR/Space Version 2.6 released </p>
+  <p>
+OSCAR/Space Version 2.6 was released including new features related to Gap Analysis and satellite status information. With version 2.6 OSCAR/Space has a new URL; <a href="https://space.oscar.wmo.int">https://space.oscar.wmo.int</a>. Please read more via the link <a href="https://wmoomm.sharepoint.com/:b:/s/wmocpdb/Ec3D34YNUupFhucfkWJkcE0Bb5PKYDc495FGV4VSEslG-Q?download=1">here</a>.
+  </p>
+</div>
+
+</body>
+
+
+</html>
