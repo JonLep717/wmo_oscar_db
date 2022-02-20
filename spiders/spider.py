@@ -38,7 +38,7 @@ class OSCARSpider(scrapy.Spider):
         base_url_displaystart = "https://space.oscar.wmo.int/requirements?themes=&applicationareas=&layers=&requirementcoverages=&iDisplayStart="
         base_url_draw = "&iDisplayLength=50&iSortCol_0=1&sSortDir_0=asc&draw="
         draw = 0
-        for x in range(0,751,51):
+        for x in range(0,751,50):
             url = base_url_displaystart+str(x)+base_url_draw+str(draw)
             request = scrapy.Request(url, callback=self.parse_api, headers=self.headers)
             yield request
