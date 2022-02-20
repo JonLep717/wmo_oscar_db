@@ -1,0 +1,738 @@
+Id,Requirement
+454,Wind (vertical)
+733,Wind (vertical)
+30,Wind gust
+698,Wind gust
+763,Wind gust
+52,Wind speed (near surface)
+318,Wind speed (near surface)
+319,Wind speed (near surface)
+389,Wind speed (near surface)
+390,Wind speed (near surface)
+455,Wind speed (near surface)
+456,Wind speed (near surface)
+563,Wind speed (near surface)
+764,Wind speed (near surface)
+768,Wind speed (near surface)
+543,Wind stress
+544,Wind stress
+844,Wind stress
+14,Wind vector (near surface)
+53,Wind vector (near surface)
+123,Wind vector (near surface)
+203,Wind vector (near surface)
+243,Wind vector (near surface)
+320,Wind vector (near surface)
+321,Wind vector (near surface)
+391,Wind vector (near surface)
+392,Wind vector (near surface)
+457,Wind vector (near surface)
+458,Wind vector (near surface)
+545,Wind vector (near surface)
+546,Wind vector (near surface)
+547,Wind vector (near surface)
+548,Wind vector (near surface)
+549,Wind vector (near surface)
+564,Wind vector (near surface)
+734,Wind vector (near surface)
+765,Wind vector (near surface)
+51,Vegetation type
+309,Vegetation type
+410,Vegetation type
+760,Vegetation type
+853,Water-leaving spectral radiance
+459,Wave 1D energy frequency spectrum
+460,Wave 1D energy frequency spectrum
+461,Wave 1D energy frequency spectrum
+462,Wave 1D energy frequency spectrum
+463,Wave 1D energy frequency spectrum
+464,Wave 1D energy frequency spectrum
+465,Wave directional energy frequency spectrum
+466,Wave directional energy frequency spectrum
+467,Wave directional energy frequency spectrum
+468,Wave directional energy frequency spectrum
+469,Wave directional energy frequency spectrum
+470,Wave directional energy frequency spectrum
+679,Wetland extent
+22,Wind (horizontal)
+23,Wind (horizontal)
+119,Wind (horizontal)
+120,Wind (horizontal)
+121,Wind (horizontal)
+122,Wind (horizontal)
+239,Wind (horizontal)
+240,Wind (horizontal)
+310,Wind (horizontal)
+311,Wind (horizontal)
+312,Wind (horizontal)
+313,Wind (horizontal)
+383,Wind (horizontal)
+384,Wind (horizontal)
+385,Wind (horizontal)
+451,Wind (horizontal)
+452,Wind (horizontal)
+453,Wind (horizontal)
+542,Wind (horizontal)
+634,Wind (horizontal)
+635,Wind (horizontal)
+636,Wind (horizontal)
+637,Wind (horizontal)
+712,Wind (horizontal)
+713,Wind (horizontal)
+781,Wind (horizontal)
+314,Wind (vertical)
+315,Wind (vertical)
+316,Wind (vertical)
+317,Wind (vertical)
+386,Wind (vertical)
+387,Wind (vertical)
+108,Snow cover
+220,Snow cover
+299,Snow cover
+375,Snow cover
+404,Snow cover
+446,Snow cover
+677,Snow cover
+824,Snow cover
+486,Snow depth
+699,Snow depth
+860,Snow depth
+405,Snow status (wet/dry)
+13,Snow water equivalent
+48,Snow water equivalent
+109,Snow water equivalent
+221,Snow water equivalent
+300,Snow water equivalent
+376,Snow water equivalent
+406,Snow water equivalent
+758,Snow water equivalent
+825,Snow water equivalent
+189,SO2 mole fraction
+736,SO2 mole fraction
+928,SO2 mole fraction
+929,SO2 mole fraction
+930,SO2 mole fraction
+931,SO2 mole fraction (near surface)
+932,SO2 mole fraction (near surface)
+933,SO2 mole fraction (near surface)
+904,SO2 Total Column
+905,SO2 Total Column
+906,SO2 Total Column
+804,SO2 Tropospheric Column
+926,SO2 Tropospheric Column
+927,SO2 Tropospheric Column
+822,Soil moisture  (in the roots region)
+49,Soil moisture at surface
+222,Soil moisture at surface
+301,Soil moisture at surface
+377,Soil moisture at surface
+407,Soil moisture at surface
+447,Soil moisture at surface
+678,Soil moisture at surface
+759,Soil moisture at surface
+823,Soil moisture at surface
+29,Soil temperature
+50,Soil type
+599,Solar Ca II-K image
+615,Solar coronagraphic image
+600,Solar EUV flux
+675,Permafrost
+696,pH
+732,Precipitation  (liquid or solid)
+45,Precipitation intensity at surface (liquid or solid)
+104,Precipitation intensity at surface (liquid or solid)
+289,Precipitation intensity at surface (liquid or solid)
+368,Precipitation intensity at surface (liquid or solid)
+442,Precipitation intensity at surface (liquid or solid)
+521,Precipitation intensity at surface (liquid or solid)
+730,Precipitation intensity at surface (liquid or solid)
+773,Precipitation intensity at surface (liquid or solid)
+46,Precipitation intensity at surface (solid)
+105,Precipitation intensity at surface (solid)
+290,Precipitation intensity at surface (solid)
+369,Precipitation intensity at surface (solid)
+443,Precipitation intensity at surface (solid)
+731,Precipitation intensity at surface (solid)
+683,Precipitation type at the surface
+762,Precipitation type at the surface
+595,Proton differential directional flux
+598,Proton differential directional flux
+709,Radiation Dose Rate
+738,Radiation Dose Rate
+789,Relative humidity
+790,Relative humidity
+776,Relative Humidity (near surface)
+522,River discharge
+676,River discharge
+818,River discharge
+471,Sea surface heat flux
+845,Sea surface heat flux
+472,Sea surface height anomaly
+473,Sea surface height anomaly
+474,Sea Surface Mass Flux
+200,Sea surface salinity
+291,Sea surface salinity
+523,Sea surface salinity
+524,Sea surface salinity
+525,Sea surface salinity
+526,Sea surface salinity
+559,Sea surface salinity
+756,Sea surface salinity
+837,Sea surface salinity
+6,Sea surface temperature
+106,Sea surface temperature
+201,Sea surface temperature
+231,Sea surface temperature
+292,Sea surface temperature
+370,Sea surface temperature
+444,Sea surface temperature
+500,Ocean chlorophyll concentration 
+552,Ocean chlorophyll concentration 
+753,Ocean chlorophyll concentration 
+854,Ocean chlorophyll concentration 
+198,Ocean dynamic topography
+400,Ocean dynamic topography
+501,Ocean dynamic topography
+502,Ocean dynamic topography
+553,Ocean dynamic topography
+754,Ocean dynamic topography
+841,Ocean dynamic topography
+287,Ocean salinity
+503,Ocean salinity
+504,Ocean salinity
+505,Ocean salinity
+506,Ocean salinity
+554,Ocean salinity
+555,Ocean salinity
+838,Ocean salinity
+849,Ocean subsurface dissolved oxygen concentration
+852,Ocean subsurface tracers
+441,Ocean surface currents (vector)
+507,Ocean surface currents (vector)
+508,Ocean surface currents (vector)
+509,Ocean surface currents (vector)
+510,Ocean surface currents (vector)
+511,Ocean surface currents (vector)
+839,Ocean surface currents (vector)
+199,Ocean suspended sediments concentration
+755,Ocean suspended sediments concentration
+288,Ocean temperature
+512,Ocean temperature
+513,Ocean temperature
+514,Ocean temperature
+515,Ocean temperature
+516,Ocean temperature
+556,Ocean temperature
+557,Ocean temperature
+836,Ocean temperature
+517,Ocean velocity
+518,Ocean velocity
+519,Ocean velocity
+520,Ocean velocity
+840,Ocean velocity
+185,OH
+44,pCO2
+558,pCO2
+692,pCO2
+694,pCO2
+850,pCO2
+528,Sea surface temperature
+529,Sea surface temperature
+530,Sea surface temperature
+531,Sea surface temperature
+532,Sea surface temperature
+560,Sea surface temperature
+737,Sea surface temperature
+757,Sea surface temperature
+835,Sea surface temperature
+7,Sea-ice cover
+8,Sea-ice cover
+202,Sea-ice cover
+232,Sea-ice cover
+293,Sea-ice cover
+371,Sea-ice cover
+402,Sea-ice cover
+445,Sea-ice cover
+533,Sea-ice cover
+561,Sea-ice cover
+846,Sea-ice cover
+9,Sea-ice elevation
+403,Sea-ice elevation
+480,Sea-ice motion
+481,Sea-ice motion
+848,Sea-ice motion
+484,Sea-ice surface characteristics
+10,Sea-ice surface temperature
+294,Sea-ice surface temperature
+372,Sea-ice surface temperature
+11,Sea-ice thickness
+295,Sea-ice thickness
+373,Sea-ice thickness
+534,Sea-ice thickness
+535,Sea-ice thickness
+562,Sea-ice thickness
+847,Sea-ice thickness
+296,Sea-ice type
+297,Short-wave cloud reflectance
+107,Significant wave height
+233,Significant wave height
+298,Significant wave height
+374,Significant wave height
+536,Significant wave height
+537,Significant wave height
+538,Significant wave height
+539,Significant wave height
+540,Significant wave height
+745,Significant wave height
+843,Significant wave height
+12,Snow cover
+894,NO2 mole fraction
+895,NO2 mole fraction
+896,NO2 mole fraction
+916,NO2 mole fraction (near surface)
+917,NO2 mole fraction (near surface)
+918,NO2 mole fraction (near surface)
+907,NO2 Stratospheric Column
+908,NO2 Stratospheric Column
+909,NO2 Stratospheric Column
+803,NO2 Tropospheric column
+897,NO2 Tropospheric column
+898,NO2 Tropospheric column
+899,NO2 Tropospheric column
+42,Normalised Difference Vegetation Index (NDVI)
+281,Normalised Difference Vegetation Index (NDVI)
+363,Normalised Difference Vegetation Index (NDVI)
+399,Normalised Difference Vegetation Index (NDVI)
+440,Normalised Difference Vegetation Index (NDVI)
+43,O3
+98,O3
+99,O3
+100,O3
+101,O3
+180,O3
+181,O3
+282,O3
+283,O3
+284,O3
+285,O3
+364,O3
+365,O3
+366,O3
+624,O3
+625,O3
+626,O3
+627,O3
+812,O3
+813,O3
+814,O3
+914,O3 mole fraction
+910,O3 mole fraction
+102,O3 Total Column
+103,O3 Total Column
+184,O3 Total Column
+286,O3 Total Column
+367,O3 Total Column
+802,O3 Total Column
+911,O3 Total Column
+912,O3 Total Column
+913,O3 Total Column
+602,Solar H-alpha image
+603,Solar magnetic field
+604,Solar radio flux
+857,Solar spectral irradiance
+605,Solar white light image
+606,Solar wind density
+607,Solar wind temperature
+608,Solar wind velocity
+609,Solar X-ray flux
+610,Solar X-ray image
+21,Specific humidity
+110,Specific humidity
+111,Specific humidity
+112,Specific humidity
+113,Specific humidity
+192,Specific humidity
+234,Specific humidity
+235,Specific humidity
+237,Specific humidity
+302,Specific humidity
+303,Specific humidity
+378,Specific humidity
+379,Specific humidity
+448,Specific humidity
+628,Specific humidity
+629,Specific humidity
+630,Specific humidity
+631,Specific humidity
+704,Specific humidity
+611,Spread F
+450,Temperature of the tropopause
+697,Total alkalinity (AT)
+747,Total lightning density
+856,Total lightning density
+859,Total lightning density
+725,Turbulence
+118,Upward long-wave irradiance at Earth surface
+308,Upward long-wave irradiance at Earth surface
+117,Upward long-wave irradiance at TOA
+307,Upward long-wave irradiance at TOA
+382,Upward long-wave irradiance at TOA
+409,Upward long-wave irradiance at TOA
+633,Upward long-wave irradiance at TOA
+784,Upward long-wave irradiance at TOA
+116,Upward short-wave irradiance at TOA
+305,Upward short-wave irradiance at TOA
+381,Upward short-wave irradiance at TOA
+408,Upward short-wave irradiance at TOA
+632,Upward short-wave irradiance at TOA
+785,Upward short-wave irradiance at TOA
+449,Integrated Water Vapour (IWV)
+817,Integrated Water Vapour (IWV)
+590,Interplanetary magnetic field
+591,Ionospheric plasma velocity
+592,Ionospheric Radio Absorption
+593,Ionospheric Scintillation
+594,Ionospheric Vertical Total Electron Content (VTEC)
+393,Lake area
+669,Lake area
+819,Lake area
+670,Lake level
+820,Lake level
+671,Lake Surface Temperature
+821,Lake Surface Temperature
+39,Land cover
+394,Land cover
+672,Land cover
+832,Land cover
+40,Land surface temperature
+97,Land surface temperature
+219,Land surface temperature
+278,Land surface temperature
+360,Land surface temperature
+395,Land surface temperature
+439,Land surface temperature
+830,Land surface temperature
+396,Land surface topography
+673,Land surface topography
+41,Leaf Area Index (LAI)
+279,Leaf Area Index (LAI)
+361,Leaf Area Index (LAI)
+397,Leaf Area Index (LAI)
+674,Leaf Area Index (LAI)
+828,Leaf Area Index (LAI)
+280,Long-wave Earth surface emissivity
+362,Long-wave Earth surface emissivity
+398,Long-wave Earth surface emissivity
+682,Meteorological Optical Range (MOR) (surface)
+167,N2O mole fraction
+863,N2O mole fraction
+864,N2O mole fraction
+865,N2O mole fraction
+866,N2O mole fraction (BG)
+867,N2O mole fraction (BG)
+868,N2O mole fraction (SR)
+869,N2O mole fraction (SR)
+171,NO
+691,NO
+179,NO2  Total Column
+176,NO2 mole fraction
+26,Evapotranspiration
+36,Fire fractional cover
+435,Fire fractional cover
+663,Fire fractional cover
+833,Fire fractional cover
+834,Fire radiative power
+37,Fire temperature
+436,Fire temperature
+581,foEs
+582,foF2
+38,Fraction of Absorbed PAR (FAPAR)
+277,Fraction of Absorbed PAR (FAPAR)
+359,Fraction of Absorbed PAR (FAPAR)
+664,Fraction of Absorbed PAR (FAPAR)
+751,Fraction of Absorbed PAR (FAPAR)
+827,Fraction of Absorbed PAR (FAPAR)
+720,Freezing level height in clouds
+752,Geoid
+612,Geomagnetic field
+613,Geomagnetic field
+614,Geomagnetic field
+665,Glacier cover
+826,Glacier cover
+666,Glacier topography
+667,Ground water
+583,h&#039;F
+922,HCHO mole fraction 
+923,HCHO mole fraction 
+924,HCHO mole fraction 
+140,HCHO Total Column
+900,HCHO Total Column
+902,HCHO Tropospheric column
+925,HCHO Tropospheric column
+805,HCHO Tropospheric column
+903,HCHO Tropospheric column
+160,HCl
+741,Heavy ion angular flux energy and mass spectrum
+742,Heavy ion angular flux energy and mass spectrum
+437,Height of the top of PBL
+724,Height of the top of PBL
+438,Height of the tropopause
+588,Heliospheric image
+589,hmF2
+163,HNO3
+5,Ice sheet topography
+668,Ice sheet topography
+719,Icing potential
+114,Integrated Water Vapour (IWV)
+115,Integrated Water Vapour (IWV)
+304,Integrated Water Vapour (IWV)
+156,CO2 mole fraction
+767,CO2 mole fraction
+796,CO2 mole fraction
+870,CO2 mole fraction
+873,CO2 Mole fraction (BG)
+874,CO2 Mole fraction (BG)
+871,CO2 Mole fraction (SR)
+872,CO2 Mole fraction (SR)
+800,CO2 Tropospheric Column
+550,Coastal sea level (tide)
+842,Coastal sea level (tide)
+196,Colour Dissolved Organic Matter (CDOM)
+750,Colour Dissolved Organic Matter (CDOM)
+157,COS
+576,Cosmic ray neutron flux
+777,Dew Point Temperature
+551,Dissolved inorganic carbon  (DIC)
+695,Dissolved inorganic carbon  (DIC)
+851,Dissolved inorganic carbon  (DIC)
+272,Dominant wave direction
+356,Dominant wave direction
+646,Dominant wave direction
+273,Dominant wave period
+357,Dominant wave period
+494,Dominant wave period
+495,Dominant wave period
+496,Dominant wave period
+497,Dominant wave period
+498,Dominant wave period
+647,Dominant wave period
+744,Dominant wave period
+95,Downward long-wave irradiance at Earth surface
+275,Downward long-wave irradiance at Earth surface
+702,Downward long-wave irradiance at Earth surface
+787,Downward long-wave irradiance at Earth surface
+35,Downward short-wave irradiance at Earth surface
+93,Downward short-wave irradiance at Earth surface
+274,Downward short-wave irradiance at Earth surface
+701,Downward short-wave irradiance at Earth surface
+788,Downward short-wave irradiance at Earth surface
+94,Downward short-wave irradiance at TOA
+230,Downward short-wave irradiance at TOA
+786,Downward short-wave irradiance at TOA
+358,Earth surface albedo
+662,Earth surface albedo
+700,Earth surface albedo
+829,Earth surface albedo
+96,Earth surface short-wave bidirectional reflectance
+276,Earth surface short-wave bidirectional reflectance
+739,Electron differential directional flux
+884,CH4 column average dry air mixing ratio 
+885,CH4 column average dry air mixing ratio 
+886,CH4 column average dry air mixing ratio 
+75,CH4 mole fraction
+76,CH4 mole fraction
+77,CH4 mole fraction
+78,CH4 mole fraction
+79,CH4 mole fraction
+80,CH4 mole fraction
+141,CH4 mole fraction
+797,CH4 mole fraction
+798,CH4 mole fraction
+879,CH4 mole fraction
+880,CH4 Mole fraction (BG)
+881,CH4 Mole fraction (BG)
+882,CH4 Mole fraction (SR)
+883,CH4 Mole fraction (SR)
+801,CH4 Tropospheric column
+145,ClO
+149,ClONO2
+205,Cloud base height
+258,Cloud base height
+342,Cloud base height
+726,Cloud base height
+749,Cloud base height
+81,Cloud cover
+206,Cloud cover
+259,Cloud cover
+343,Cloud cover
+430,Cloud cover
+493,Cloud cover
+703,Cloud cover
+727,Cloud cover
+791,Cloud cover
+16,Cloud drop effective radius
+260,Cloud drop effective radius
+344,Cloud drop effective radius
+795,Cloud drop effective radius
+17,Cloud ice
+207,Cloud ice
+208,Cloud ice
+209,Cloud ice
+210,Cloud ice
+261,Cloud ice
+262,Cloud ice
+345,Cloud ice
+346,Cloud ice
+728,Cloud ice effective radius
+82,Cloud ice Total Column
+211,Cloud ice Total Column
+347,Cloud ice Total Column
+20,Cloud liquid water (CLW)
+212,Cloud liquid water (CLW)
+213,Cloud liquid water (CLW)
+264,Cloud liquid water (CLW)
+265,Cloud liquid water (CLW)
+348,Cloud liquid water (CLW)
+349,Cloud liquid water (CLW)
+794,Cloud liquid water (CLW)
+84,Cloud liquid water (CLW) total column
+214,Cloud liquid water (CLW) total column
+266,Cloud liquid water (CLW) total column
+350,Cloud liquid water (CLW) total column
+3,Cloud optical depth
+793,Cloud optical depth
+748,Cloud to Ground lightning density
+855,Cloud to Ground lightning density
+4,Cloud top height
+85,Cloud top height
+270,Cloud top height
+354,Cloud top height
+431,Cloud top height
+86,Cloud top temperature
+218,Cloud top temperature
+432,Cloud top temperature
+792,Cloud top temperature
+152,Cloud type
+271,Cloud type
+355,Cloud type
+433,Cloud type
+729,Cloud type
+153,CO mole fraction
+815,CO mole fraction
+890,CO mole fraction
+891,CO mole fraction
+892,CO mole fraction
+919,CO mole fraction (near surface)
+920,CO mole fraction (near surface)
+921,CO mole fraction (near surface)
+806,CO Tropospheric column
+888,CO Tropospheric column
+889,CO Tropospheric column
+878,CO2 column average dry air mixing ratio
+875,CO2 column average dry air mixing ratio
+876,CO2 column average dry air mixing ratio
+877,CO2 column average dry air mixing ratio
+87,CO2 mole fraction
+88,CO2 mole fraction
+89,CO2 mole fraction
+90,CO2 mole fraction
+337,Air specific humidity (near surface)
+489,Air specific humidity (near surface)
+722,Air specific humidity (near surface)
+2,Air temperature (near surface)
+33,Air temperature (near surface)
+70,Air temperature (near surface)
+253,Air temperature (near surface)
+338,Air temperature (near surface)
+426,Air temperature (near surface)
+490,Air temperature (near surface)
+723,Air temperature (near surface)
+774,Air temperature (near surface)
+710,Atmospheric density
+711,Atmospheric density
+15,Atmospheric temperature
+34,Atmospheric temperature
+71,Atmospheric temperature
+72,Atmospheric temperature
+73,Atmospheric temperature
+74,Atmospheric temperature
+226,Atmospheric temperature
+227,Atmospheric temperature
+254,Atmospheric temperature
+255,Atmospheric temperature
+256,Atmospheric temperature
+257,Atmospheric temperature
+339,Atmospheric temperature
+340,Atmospheric temperature
+341,Atmospheric temperature
+427,Atmospheric temperature
+428,Atmospheric temperature
+620,Atmospheric temperature
+621,Atmospheric temperature
+622,Atmospheric temperature
+623,Atmospheric temperature
+714,Atmospheric temperature
+715,Atmospheric temperature
+778,Atmospheric temperature
+779,Atmospheric temperature
+780,Atmospheric temperature
+681,Background Luminance (surface)
+491,Bathymetry
+661,Biomass
+831,Biomass
+128,BrO
+862,C2H2
+935,C2H2
+132,CFC-11
+136,CFC-12
+861,CH3OH Mole Fraction
+936,(13)CH4 delta
+937,(13)CH4 delta
+31,Accumulated precipitation (over 24 h)
+54,Accumulated precipitation (over 24 h)
+204,Accumulated precipitation (over 24 h)
+244,Accumulated precipitation (over 24 h)
+334,Accumulated precipitation (over 24 h)
+766,Accumulated precipitation (over 24 h)
+684,Aerosol Absorption Optical Depth
+245,Aerosol column burden
+425,Aerosol column burden
+705,Aerosol column burden
+761,Aerosol column burden
+915,Aerosol column burden
+688,Aerosol dust concentration
+55,Aerosol Extinction Coefficient
+934,Aerosol Extinction Coefficient
+735,Aerosol Extinction Coefficient
+810,Aerosol Extinction Coefficient
+809,Aerosol Layer Height
+124,Aerosol mass mixing ratio
+125,Aerosol mass mixing ratio
+127,Aerosol mass mixing ratio
+223,Aerosol mass mixing ratio
+246,Aerosol mass mixing ratio
+247,Aerosol mass mixing ratio
+248,Aerosol mass mixing ratio
+249,Aerosol mass mixing ratio
+616,Aerosol mass mixing ratio
+617,Aerosol mass mixing ratio
+618,Aerosol mass mixing ratio
+619,Aerosol mass mixing ratio
+63,Aerosol Optical Depth
+66,Aerosol Optical Depth
+807,Aerosol Optical Depth
+808,Aerosol single-scattering albedo
+717,Aerosol volcanic ash
+718,Aerosol volcanic ash  Total Column
+67,Air pressure (near surface)
+68,Air pressure (near surface)
+250,Air pressure (near surface)
+251,Air pressure (near surface)
+335,Air pressure (near surface)
+487,Air pressure (near surface)
+488,Air pressure (near surface)
+721,Air pressure (near surface)
+775,Air pressure (near surface)
+1,Air specific humidity (near surface)
+32,Air specific humidity (near surface)
+69,Air specific humidity (near surface)
